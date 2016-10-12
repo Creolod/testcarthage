@@ -16,4 +16,6 @@ FOUNDATION_EXPORT const unsigned char AMInfiniteScrollingVersionString[];
 
 // In this header, you should import all the public headers of your framework using statements like #import <AMInfiniteScrolling/PublicHeader.h>
 
+#import "NSTableView+AMInfiniteScroilling.h"
+
 

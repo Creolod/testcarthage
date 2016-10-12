@@ -10,7 +10,7 @@
 		CE5CADC61DAD12F2001287D5 /* AMInfiniteScrolling.h in Headers */ = {isa = PBXBuildFile; fileRef = CE5CADC51DAD12F2001287D5 /* AMInfiniteScrolling.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CE5CADCD1DAD12F2001287D5 /* AMInfiniteScrolling.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE5CADC21DAD12F2001287D5 /* AMInfiniteScrolling.framework */; };
 		CE5CADD21DAD12F2001287D5 /* AMInfiniteScrollingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CE5CADD11DAD12F2001287D5 /* AMInfiniteScrollingTests.m */; };
-		CE5CADDD1DAD130E001287D5 /* NSTableView+AMInfiniteScroilling.h in Headers */ = {isa = PBXBuildFile; fileRef = CE5CADDC1DAD130E001287D5 /* NSTableView+AMInfiniteScroilling.h */; };
+		CE5CADDD1DAD130E001287D5 /* NSTableView+AMInfiniteScroilling.h in Headers */ = {isa = PBXBuildFile; fileRef = CE5CADDC1DAD130E001287D5 /* NSTableView+AMInfiniteScroilling.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CE5CADDF1DAD1313001287D5 /* NSTableView+AMInfiniteScroilling.m in Sources */ = {isa = PBXBuildFile; fileRef = CE5CADDE1DAD1313001287D5 /* NSTableView+AMInfiniteScroilling.m */; };
 /* End PBXBuildFile section */
 
@@ -316,6 +316,10 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/AMInfiniteScrolling",
+				);
 				FRAMEWORK_VERSION = A;
 				INFOPLIST_FILE = AMInfiniteScrolling/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
@@ -339,6 +343,10 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/AMInfiniteScrolling",
+				);
 				FRAMEWORK_VERSION = A;
 				INFOPLIST_FILE = AMInfiniteScrolling/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
