@@ -10,6 +10,8 @@
 		CE5CADC61DAD12F2001287D5 /* AMInfiniteScrolling.h in Headers */ = {isa = PBXBuildFile; fileRef = CE5CADC51DAD12F2001287D5 /* AMInfiniteScrolling.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CE5CADCD1DAD12F2001287D5 /* AMInfiniteScrolling.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE5CADC21DAD12F2001287D5 /* AMInfiniteScrolling.framework */; };
 		CE5CADD21DAD12F2001287D5 /* AMInfiniteScrollingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CE5CADD11DAD12F2001287D5 /* AMInfiniteScrollingTests.m */; };
+		CE5CADDD1DAD130E001287D5 /* NSTableView+AMInfiniteScroilling.h in Headers */ = {isa = PBXBuildFile; fileRef = CE5CADDC1DAD130E001287D5 /* NSTableView+AMInfiniteScroilling.h */; };
+		CE5CADDF1DAD1313001287D5 /* NSTableView+AMInfiniteScroilling.m in Sources */ = {isa = PBXBuildFile; fileRef = CE5CADDE1DAD1313001287D5 /* NSTableView+AMInfiniteScroilling.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +31,8 @@
 		CE5CADCC1DAD12F2001287D5 /* AMInfiniteScrollingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AMInfiniteScrollingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE5CADD11DAD12F2001287D5 /* AMInfiniteScrollingTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AMInfiniteScrollingTests.m; sourceTree = "<group>"; };
 		CE5CADD31DAD12F2001287D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE5CADDC1DAD130E001287D5 /* NSTableView+AMInfiniteScroilling.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSTableView+AMInfiniteScroilling.h"; sourceTree = "<group>"; };
+		CE5CADDE1DAD1313001287D5 /* NSTableView+AMInfiniteScroilling.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSTableView+AMInfiniteScroilling.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +75,8 @@
 		CE5CADC41DAD12F2001287D5 /* AMInfiniteScrolling */ = {
 			isa = PBXGroup;
 			children = (
+				CE5CADDC1DAD130E001287D5 /* NSTableView+AMInfiniteScroilling.h */,
+				CE5CADDE1DAD1313001287D5 /* NSTableView+AMInfiniteScroilling.m */,
 				CE5CADC51DAD12F2001287D5 /* AMInfiniteScrolling.h */,
 				CE5CADC71DAD12F2001287D5 /* Info.plist */,
 			);
@@ -94,6 +100,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CE5CADC61DAD12F2001287D5 /* AMInfiniteScrolling.h in Headers */,
+				CE5CADDD1DAD130E001287D5 /* NSTableView+AMInfiniteScroilling.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -193,6 +200,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE5CADDF1DAD1313001287D5 /* NSTableView+AMInfiniteScroilling.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
