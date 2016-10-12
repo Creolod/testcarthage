@@ -12,7 +12,7 @@
 
 @interface NSTableView (AMInfiniteScroilling)
 
-- (void)addInfiniteScrollingWithScrollView:(NSScrollView*)scrollView andActionHandler:(void (^)(void))actionHandler;
+- (void)addInfiniteScrollingWithActionHandler:(void (^)(void))actionHandler;
 - (void)triggerInfiniteScrolling;
 
 @property (nonatomic, strong, readonly) NSClipView *clipView;

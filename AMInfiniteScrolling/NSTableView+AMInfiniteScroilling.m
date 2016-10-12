@@ -40,7 +40,7 @@ NSEdgeInsets scrollViewOriginalContentInsets;
 
 @dynamic clipView;
 
-- (void)addInfiniteScrollingWithScrollView:(NSScrollView*)scrollView andActionHandler:(void (^)(void))actionHandler {
+- (void)addInfiniteScrollingWithActionHandler:(void (^)(void))actionHandler{
     if(!self.infiniteScrollingView) {
         AMInfiniteScrollingView* view = [[AMInfiniteScrollingView alloc] initWithFrame:CGRectMake(0, 0, self.bounds.size.width, AMInfiniteScrollingViewHeight)];
         view.infiniteScrollingHandler = actionHandler;
