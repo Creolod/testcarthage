@@ -7,7 +7,6 @@
 //
 
 #import <Cocoa/Cocoa.h>
-#import <NSTableView+AMInfiniteScroilling.h>
 
 //! Project version number for AMInfiniteScrolling.
 FOUNDATION_EXPORT double AMInfiniteScrollingVersionNumber;
